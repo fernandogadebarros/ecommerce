@@ -1,0 +1,9 @@
+.call-to-action {
+  &-container {
+    @apply container rounded-lg bg-cover;
+  }
+
+  .bg-speakers {
+    background: url('/media/home/desktop/image-speaker-zx7.jpg');
+  }
+}

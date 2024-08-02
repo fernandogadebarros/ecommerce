@@ -1,0 +1,21 @@
+.products-links {
+    @apply flex items-center gap-7 container mt-32;
+
+    &-container {
+        @apply flex flex-col items-center relative bg-gray-light rounded-lg pb-8 w-full;
+    }
+
+    &-heading {
+        @apply pt-14 text-black font-bold;
+    }
+
+    &-btn {
+        @apply flex items-center uppercase text-black/50 mt-3;
+        font-size: 12px;
+        letter-spacing: 2px;
+
+        &-icon {
+            @apply relative text-orange-light;
+        }
+    }
+}

@@ -2,4 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "../components/Header/header.scss"
+@import '../components/Header/header.scss';
+@import '../components/Footer/footer.scss';
+@import '../components/ProductsLinks/products-links.scss';
+
+@import '../components/pages/Home/CallToActionHome/call-to-action-home.scss';
+@import '../components/pages/Home/Banner/banner.scss';

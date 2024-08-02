@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import { Manrope } from 'next/font/google'
 import '@/styles/main.scss'
 import { ReactNode } from 'react'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const mainrope = Manrope({ subsets: ['latin'] })
 
@@ -16,8 +18,12 @@ export default function RootLayout({
   children: ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={mainrope.className}>{children}</body>
+    <html lang="pt-BR">
+      <body className={`${mainrope.className} mt-[97px]`}>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

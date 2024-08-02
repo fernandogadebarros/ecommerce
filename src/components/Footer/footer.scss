@@ -1,0 +1,11 @@
+.footer {
+   @apply relative bg-gray-darkest text-white py-20; 
+
+   &-container {
+    @apply relative container
+   }
+
+   &-line-decoration {
+    @apply absolute -top-20 w-[100px] h-2 bg-orange-regular;
+   }
+}
